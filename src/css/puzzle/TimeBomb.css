@@ -1,0 +1,78 @@
+/*화면 가운데 정렬*/
+#timeBomb,
+#failDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+/*문제*/
+#timeBomb h1,
+#failDiv h1 {
+  color: white;
+  margin-bottom: 30px;
+}
+#timeBomb h3 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+/*해체 버튼*/
+#timeBomb table {
+  border-collapse: collapse;
+  background-color: white;
+  cursor: pointer;
+}
+#timeBomb td {
+  border: 3px solid black;
+  padding: 30px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/*클릭한 해체 버튼*/
+.clickBombCheck {
+  background-color: red;
+  color: white;
+}
+
+/*해체 버튼*/
+#checkBomb {
+  margin-top: 40px;
+  padding: 20px 200px 20px 200px;
+  font-size: 1.5em;
+  border: 2px solid black;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+}
+/*재시작 버튼*/
+#restartBombBtn {
+  margin-top: 40px;
+  padding: 10px 100px 10px 100px;
+  font-size: 1.5em;
+  border: 2px solid black;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+}
+#checkBomb:hover,
+#restartBombBtn:hover {
+  background-color: rgb(238, 73, 73);
+}
+
+/*타이머 표시*/
+#timerContainer {
+  display: flex;
+  left: 0;
+  width: 450px;
+  margin-bottom: 50px;
+}
+#timerDiv {
+  height: 20px;
+  margin-top: 20px;
+  left: 0;
+}

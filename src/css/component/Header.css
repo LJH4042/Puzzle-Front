@@ -1,0 +1,43 @@
+#headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+#header_1_Div {
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+#header_2_Div {
+  margin-right: 50px;
+}
+#header_2_Div button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: white;
+  cursor: pointer;
+}
+#loginBtn,
+#registerBtn {
+  background-color: darkgrey;
+  margin-right: 10px;
+}
+#loginBtn:hover,
+#registerBtn:hover {
+  background-color: grey;
+}
+
+#mypageBtn {
+  background-color: rgb(253, 47, 47);
+  margin-right: 10px;
+}
+#mypageBtn:hover {
+  background-color: rgb(250, 118, 118);
+}

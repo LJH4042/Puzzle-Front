@@ -1,0 +1,49 @@
+/*화면 가운데 정렬*/
+#clickTwoNoFour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+/*문제*/
+#clickTwoNoFour h1 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+/*키패트*/
+#clickTwoNoFour table {
+  border-collapse: collapse;
+  background-color: white;
+  cursor: pointer;
+}
+#clickTwoNoFour td {
+  border: 3px solid black;
+  padding: 30px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/*클릭한 키패드*/
+.clickPadCheck {
+  background-color: green;
+  color: white;
+}
+
+/*확인 버튼*/
+#checkTwoFour {
+  margin-top: 40px;
+  padding: 20px 200px 20px 200px;
+  font-size: 1.5em;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+#checkTwoFour:hover {
+  background-color: gray;
+  color: white;
+}

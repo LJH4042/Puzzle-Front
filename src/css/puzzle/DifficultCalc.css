@@ -1,0 +1,86 @@
+#DifficultCalc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+/*문제*/
+#DifficultCalc h1 {
+  color: white;
+  margin-bottom: 30px;
+}
+#DifficultCalc h3 {
+  color: white;
+}
+
+/*수식, 결과 보여주는 구간*/
+#resultDiv {
+  background-color: white;
+  width: 600px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 20px 0px 20px 0px;
+  justify-content: center;
+}
+
+/*버튼 구역*/
+.btnDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.btnDiv button {
+  width: 100px;
+  height: 100px;
+  font-size: 2em;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border: 1px solid black;
+}
+
+/*연산자 버튼*/
+.operBtn {
+  background-color: chocolate;
+}
+.operBtn:hover {
+  background-color: coral;
+}
+
+/*숫자 버튼*/
+.numBtn {
+  background-color: darkgrey;
+}
+.numBtn:hover {
+  background-color: lightgrey;
+}
+
+/*답 확인 구간*/
+#checkDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 450px;
+  margin: 40px 0px 60px 0px;
+}
+#checkDiv input {
+  width: 300px;
+  height: 50px;
+  font-size: 1.2em;
+}
+#checkDiv button {
+  height: 57px;
+  width: 100px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: white;
+}
+#checkDiv button:hover {
+  background-color: gray;
+  color: white;
+}

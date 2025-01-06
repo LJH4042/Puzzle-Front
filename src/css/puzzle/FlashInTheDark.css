@@ -1,0 +1,72 @@
+#FlashInTheDark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+/*문제*/
+#FlashInTheDark h1 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+/*어둠 부분*/
+#container {
+  position: relative;
+  width: 90%;
+  height: 600px;
+  overflow: hidden;
+  border: 2px solid white;
+  cursor: none;
+}
+/*기호*/
+#numDiv {
+  position: relative;
+  z-index: 2;
+}
+/*어둠*/
+#dark {
+  position: absolute;
+  inset: 0;
+  background-color: black;
+  z-index: 1;
+}
+/*손전등*/
+#light {
+  position: absolute;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 10px 10px black;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+}
+
+/*답 확인 구간*/
+#checkDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 450px;
+  margin: 40px 0px 60px 0px;
+}
+#checkDiv input {
+  width: 300px;
+  height: 50px;
+  font-size: 1.2em;
+}
+#checkDiv button {
+  height: 57px;
+  width: 100px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: white;
+}
+#checkDiv button:hover {
+  background-color: gray;
+  color: white;
+}

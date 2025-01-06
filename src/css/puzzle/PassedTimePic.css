@@ -1,0 +1,97 @@
+/*화면 가운데 정렬*/
+#passedTimePic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+/*문제*/
+#passedTimePic h1 {
+  color: white;
+  margin-bottom: 30px;
+}
+#passedTimePic h3 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+/*사진 번호*/
+.imageDiv span {
+  font-weight: bold;
+  font-size: 2em;
+  border: 5px solid cadetblue;
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/*사진*/
+.pic {
+  width: 500px;
+  border: 10px solid white;
+  margin: 10px;
+  cursor: pointer;
+}
+.pic:hover {
+  border: 10px solid gold;
+}
+
+/*모달 구간*/
+#modalDiv {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+/*모달 삭제*/
+#modalDelete {
+  color: white;
+  position: absolute;
+  top: 10%;
+  right: 23%;
+  font-size: 2em;
+}
+#modalDelete:hover {
+  color: red;
+  cursor: pointer;
+}
+/*모달 이미지*/
+#modalImg {
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #eee;
+}
+
+/*답 확인 구간*/
+#checkDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 450px;
+  margin: 40px 0px 60px 0px;
+}
+#checkDiv input {
+  width: 300px;
+  height: 50px;
+  font-size: 1.2em;
+}
+#checkDiv button {
+  height: 57px;
+  width: 100px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: white;
+}
+#checkDiv button:hover {
+  background-color: gray;
+  color: white;
+}

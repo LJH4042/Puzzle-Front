@@ -1,0 +1,35 @@
+/*로그인 전 메인 화면*/
+.KeyMainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  gap: 60px;
+}
+.KeyMainDiv img {
+  width: 200px;
+}
+
+/*로그인 후 메인 화면면*/
+.GameMainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  gap: 60px;
+}
+.GameMainDiv button {
+  width: 200px;
+  height: 200px;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: chocolate;
+}
+.GameMainDiv button:hover {
+  background-color: coral;
+}
+.GameMainDiv img {
+  width: 200px;
+}

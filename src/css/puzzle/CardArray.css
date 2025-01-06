@@ -1,0 +1,63 @@
+/*화면 가운데 정렬*/
+#cardArray {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+/*문제*/
+#cardArray h1,
+h4 {
+  color: white;
+}
+
+/*카드 구역 가로로 정렬*/
+#rowCardDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+/*카드 선택 구간*/
+.selectCardDiv {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.selectCardDiv span {
+  font-size: 3em;
+  color: gray;
+  cursor: pointer;
+  font-weight: bold;
+}
+.selectCardDiv span:hover {
+  color: cadetblue;
+}
+
+/*카드 표시 구간*/
+.cardDiv {
+  display: flex;
+  width: 220px;
+  height: 300px;
+  background: center / cover no-repeat;
+  background-color: white;
+  border-radius: 15px;
+}
+
+/*확인 버튼*/
+#checkCard {
+  padding: 20px 200px 20px 200px;
+  font-size: 1.5em;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  margin: 40px 0px 100px 0px;
+}
+#checkCard:hover {
+  background-color: gray;
+  color: white;
+}

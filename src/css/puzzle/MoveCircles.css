@@ -1,0 +1,59 @@
+#moveCircles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+/*문제*/
+#moveCircles h1 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+/*입력창*/
+#checkInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#checkInput input {
+  width: 100px;
+  height: 50px;
+  font-size: 1.3em;
+}
+#redInput {
+  background-color: rgb(255, 79, 79);
+}
+#yellowInput {
+  background-color: rgb(250, 250, 68);
+}
+#greenInput {
+  background-color: rgb(39, 146, 39);
+}
+#blueInput {
+  background-color: rgb(70, 70, 255);
+}
+
+/*움직이는 공 구간*/
+#circleDiv {
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+/*정답 확인 버튼*/
+#checkCanvas {
+  margin: 50px 0px 50px 0px;
+  padding: 20px 300px 20px 300px;
+  font-size: 1.5em;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+#checkCanvas:hover {
+  background-color: gray;
+  color: white;
+}

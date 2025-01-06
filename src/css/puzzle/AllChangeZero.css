@@ -1,0 +1,56 @@
+#AllChangeZero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+/*문제*/
+#AllChangeZero h1 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+/*퍼즐 구역*/
+.sumDiv {
+  display: flex;
+  margin: 15px;
+  gap: 30px;
+  font-size: 2em;
+  font-weight: bold;
+}
+/*숫자 구간*/
+.sumNum {
+  border: 1px solid black;
+  padding: 50px 60px 50px 60px;
+  background-color: antiquewhite;
+}
+/*Sum 버튼*/
+.sumBtn {
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 50px 60px 50px 60px;
+  background-color: chocolate;
+}
+.sumBtn:hover {
+  background-color: coral;
+}
+#noneDiv {
+  margin-left: 140px;
+}
+
+/*확인 버튼*/
+#checkAnswer {
+  padding: 20px 220px 20px 220px;
+  font-size: 1.5em;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  margin: 40px 0px 100px 0px;
+}
+#checkAnswer:hover {
+  background-color: gray;
+  color: white;
+}

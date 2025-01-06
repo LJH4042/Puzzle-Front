@@ -1,0 +1,58 @@
+#DrageDropTile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+/*문제*/
+#DrageDropTile h1,
+h3 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+/*타일 리스트*/
+#tileList {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+/*각 타일*/
+.tile {
+  border: 10px groove gray;
+  font-size: 3em;
+  background-color: rgb(212, 212, 212);
+  border-radius: 10px;
+  color: blue;
+  font-weight: bold;
+  width: 160px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drag {
+  opacity: 0.1;
+}
+.enter {
+  background-color: lightblue;
+  color: red;
+}
+
+/*확인 버튼*/
+#checkTile {
+  margin-top: 80px;
+  padding: 20px 200px 20px 200px;
+  font-size: 1.5em;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+#checkTile:hover {
+  background-color: gray;
+  color: white;
+}

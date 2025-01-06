@@ -1,0 +1,60 @@
+/*화면 가운데 정렬*/
+#turnOnLight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+/*문제*/
+#turnOnLight h1 {
+  color: white;
+  margin-bottom: 70px;
+}
+
+/*전구 구간*/
+#lightDiv {
+  display: flex;
+  gap: 30px;
+}
+.light {
+  border: 3px solid black;
+  border-radius: 50%;
+  padding: 60px;
+  background-color: white;
+}
+.turnLight {
+  background-color: gold;
+}
+
+/*버튼 구간*/
+#btnDiv {
+  display: flex;
+  gap: 30px;
+  margin-top: 70px;
+}
+.lightBtn {
+  border: 3px solid black;
+  padding: 60px;
+  background-color: chocolate;
+  cursor: pointer;
+}
+.lightBtn:hover {
+  background-color: rgb(238, 129, 50);
+}
+
+/*확인 버튼*/
+#checkLight {
+  margin-top: 80px;
+  padding: 20px 350px 20px 350px;
+  font-size: 1.5em;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+#checkLight:hover {
+  background-color: gray;
+  color: white;
+}
